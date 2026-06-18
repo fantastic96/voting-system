@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: #f2f4f7;
+  color: #222;
+  font-family: 'Helvetica Neue', Arial, 'Noto Sans TC', sans-serif;
+  line-height: 1.6;
+}
+
+#app {
+  min-height: 100vh;
+  padding: 24px;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+@media (max-width: 768px) {
+  #app {
+    padding: 12px;
+  }
+}
